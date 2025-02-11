@@ -1,42 +1,28 @@
-// let slideIndex = 1;
-// showSlides(slideIndex);
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+function plusslidez(n) {
+  showslidez(slideIndex += n);
 }
 
 function currentSlide(n) {
-  showSlides(slideIndex = n);
+  showslidez(slideIndex = n);
 }
 
-function showSlides(n) {
+function showslidez(n) {
   let i;
-  let slides = document.getElementsByClassName("slides");
+  let slidez = document.getElementsByClassName("slidez");
   let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+  if (n > slidez.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slidez.length}
+  for (i = 0; i < slidez.length; i++) {
+    slidez[i].style.display = "none";  
   }
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";  
+  slidez[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
 
-window.addEventListener("load", () => {
-  const slay = document.querySelector(".slay");
-
- 
-  setTimeout(() => {
-      slay.classList.add("slay-hidden");
-  }, 1300); 
-
-  slay.addEventListener("transitionend", () => { 
-      document.body.removeChild(slay);
-  });
-});
 
 window.addEventListener("scroll", () => {
   const stickyBar = document.querySelector(".sticky");
@@ -51,3 +37,20 @@ window.addEventListener("scroll", () => {
 });
 
 
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const fadeElements = document.querySelectorAll(".fad-in");
+
+  function checkVisibility() {
+      fadeElements.forEach(element => {
+          const rect = element.getBoundingClientRect();
+          if (rect.top < window.innerHeight * 0.85) {  
+              element.classList.add("visible");
+          }
+      });
+  }
+
+  window.addEventListener("scroll", checkVisibility);
+  checkVisibility(); 
+});

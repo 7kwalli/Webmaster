@@ -1,0 +1,237 @@
+
+.boxup {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  border: 2px solid #6b6b6b; 
+  background-color: #adb3bd;
+  padding: 15px;
+  border-radius: 10px; 
+  max-width: 650px; 
+  margin: 20px auto; 
+  padding-bottom: 7px;
+  width: 700px;  /* Fixed width */
+  height: 260px; /* Fixed height */
+  box-sizing: border-box; /* Include padding and border in size */
+}
+
+.boxright {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  border: 2px solid #6b6b6b; 
+  background-color: #adb3bd;
+  padding: 15px;
+  border-radius: 10px; 
+  max-width: 650px; 
+  margin: 20px auto;
+  padding-bottom: 27px;
+  width: 700px;  /* Fixed width */
+  height: 260px; /* Fixed height */
+  box-sizing: border-box; /* Include padding and border in size */
+}
+
+.boxdown {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  border: 2px solid #6b6b6b; 
+  background-color: #adb3bd;
+  padding: 15px;
+  border-radius: 10px; 
+  max-width: 650px; 
+  margin: 20px auto;
+  padding-bottom: 27px;
+  width: 700px;  /* Fixed width */
+  height: 260px; /* Fixed height */
+  box-sizing: border-box; /* Include padding and border in size */
+}
+
+
+.boxund {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  border: 2px solid #6b6b6b; 
+  background-color: #adb3bd;
+  padding: 10px;
+  border-radius: 10px; 
+  max-width: 650px; 
+  margin: 20px; 
+  width: 700px;  /* Fixed width */
+  height: 260px; /* Fixed height */
+  box-sizing: border-box; /* Include padding and border in size */
+}
+
+
+
+.text {
+  flex: 1; 
+  margin-right: -10px; 
+}
+
+.text h1 {
+  font-size: 30px; 
+  margin: 0; 
+  text-decoration: underline;
+}
+
+.text h2 {
+  font-size: 23px; 
+  margin: 0; 
+}
+
+.text p {
+  font-size: 18px;
+  margin: 10px 0 0; }
+
+
+.imagt {
+  flex-shrink: 0; 
+}
+
+.imagt img {
+  width: 150px; 
+  height: auto; 
+  border-radius: 8px; 
+}
+
+
+a.blr {
+  text-decoration: underline;
+  color: #171422; 
+  font-size: 35px; 
+  font-weight: bold;
+  padding: 3px; 
+  transition: color 0.3s, background-color 0.3s; 
+  
+}
+
+div.sticky.stuck a.blr {
+  color: rgb(255, 255, 255); 
+  text-decoration: underline;
+}
+
+div.sticky.stuck a.blr:hover {
+background-color: rgb(255, 234, 45); 
+text-decoration: underline;
+  border-radius: 8px;
+  color: #242036;
+}
+
+a.blr:hover {
+  background-color: rgb(255, 234, 45); 
+  border-radius: 8px;
+  color: #242036;
+  text-decoration: underline; 
+  z-index: 5;
+}
+
+
+.blr:hover .pngbar {
+  background-color: yellow; 
+  border-radius: 5px; 
+  transition: 0.3s ease-in-out; 
+}
+
+
+div.sticky.stuck.blr:hover .pngbar{
+  background-color: rgb(251, 255, 1);
+}
+
+.rowflex{
+  display: flex;
+  flex-direction: row;
+}
+
+.flexright{
+  flex:1;
+}
+
+.flexleft{
+  flex:1;
+}
+
+.surround {
+  border: #171422 solid 7px;
+  width: 1000px;
+}
+
+.surround h3:first-of-type {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+
+h4{
+  text-align:center;
+  font-size: 50px;
+}
+
+h3{
+  text-align: center;
+  font-size:70px;
+  text-decoration: underline solid #ffffff;
+  color: white;
+  background-color: #28233d;
+  padding-bottom: 10px;
+}
+
+
+.fad-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fad-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+.drop-content {
+  display: none;
+  margin-left: 20px; 
+  font-size: 18px;
+}
+
+.drop-header {
+  cursor: pointer;
+  font-size: 40px;
+  font-family: spacefont;
+  margin: 10px 0;
+  background-color: #171422;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  border: #171422 solid;
+}
+
+.drop-header:hover {
+  background-color: #887eac;
+}
+
+.drop-content.active {
+  display: block;
+}
+
+.menuoptions{
+  display: flex; 
+  flex-direction: row;
+  font-size: 30px;
+  padding: 30px;
+  text-align: center;
+  border: #171422 solid;
+}
+
+.menudesc{
+  display: flex; 
+  flex-direction: row;
+  font-size: 20px;
+  padding: 15px;
+  text-align: center;
+}
