@@ -10,9 +10,9 @@
   max-width: 650px; 
   margin: 20px auto; 
   padding-bottom: 7px;
-  width: 700px;  /* Fixed width */
-  height: 260px; /* Fixed height */
-  box-sizing: border-box; /* Include padding and border in size */
+  width: 700px;  
+  height: 260px; 
+  box-sizing: border-box;
 }
 
 .boxright {
@@ -26,9 +26,9 @@
   max-width: 650px; 
   margin: 20px auto;
   padding-bottom: 27px;
-  width: 700px;  /* Fixed width */
-  height: 260px; /* Fixed height */
-  box-sizing: border-box; /* Include padding and border in size */
+  width: 700px;  
+  height: 260px; 
+  box-sizing: border-box;
 }
 
 .boxdown {
@@ -42,9 +42,9 @@
   max-width: 650px; 
   margin: 20px auto;
   padding-bottom: 27px;
-  width: 700px;  /* Fixed width */
-  height: 260px; /* Fixed height */
-  box-sizing: border-box; /* Include padding and border in size */
+  width: 700px;  
+  height: 260px; 
+  box-sizing: border-box; 
 }
 
 
@@ -58,9 +58,9 @@
   border-radius: 10px; 
   max-width: 650px; 
   margin: 20px; 
-  width: 700px;  /* Fixed width */
-  height: 260px; /* Fixed height */
-  box-sizing: border-box; /* Include padding and border in size */
+  width: 700px;  
+  height: 260px; 
+  box-sizing: border-box; 
 }
 
 
@@ -270,4 +270,13 @@ h3{
   text-align: center;
   font-family:'Times New Roman', Times, serif;
 
+}
+
+.footpng{
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  cursor: pointer; 
+  color: rgb(238, 255, 0); 
+  font-size: 20px;
+  text-align: center;
 }
