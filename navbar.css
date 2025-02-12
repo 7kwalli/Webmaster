@@ -111,7 +111,7 @@ div.sticky {
   a.ble {
     text-decoration: underline;
     color: #171422; 
-    font-size: 25px; 
+    font-size: 30px; 
     font-weight: bold;
     padding: 3px; 
     transition: color 0.3s, background-color 0.3s; 
@@ -178,6 +178,8 @@ div.sticky {
   color: #fff;
 	
 }
+
+.marg a { margin-left: 7px; }
 
 body {
     background-image: url(background.png);
