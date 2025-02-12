@@ -235,3 +235,39 @@ h3{
   padding: 15px;
   text-align: center;
 }
+
+
+.footer{
+  background-color:#171422;
+  color: #fff;
+  padding: 2px;
+  z-index: 2;
+  text-align: center;
+  margin-top: 50px;
+  max-height: 335px;
+  flex:1;
+}
+
+.footerhead{
+  background-color:#1d192c;
+  z-index: 2;
+  text-align: center;
+  margin-top: 200px;
+  max-height: 50px;
+  flex:1;
+}
+
+
+
+.footercontainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.footertxt{
+  color:#d9e806;
+  font-size: 20px;
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+
+}
