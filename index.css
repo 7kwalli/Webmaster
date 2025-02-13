@@ -96,13 +96,19 @@ margin-top: -10px;
 .side3{
   position:absolute;
   float:none;
-  margin-top: 618px;
+  margin-top: 148px;
 }
 
 .side4{
   position:absolute;
   float:none;
-  margin-top: 205px;
+  margin-top: 324px;
+}
+
+.side5{
+  position:absolute;
+  float:none;
+   margin-top: 210px; 
 }
 .oside{
   margin-left: 1249px;
@@ -122,7 +128,7 @@ margin-top: -10px;
   margin-left: 1249px;
   float:none;
   position: absolute;
-  margin-top: 618px;
+  margin-top: 148px;
 }
 
 
@@ -130,7 +136,15 @@ margin-top: -10px;
   margin-left: 1249px;
   float:none;
   position: absolute;
-  margin-top: 205px;
+  margin-top: 324px;
+}
+
+
+.oside5{
+  position:absolute;
+  margin-left: 1249px;
+  float:none;
+  margin-top: 210px;
 }
 
 body {
@@ -252,7 +266,7 @@ img {vertical-align: middle;}
   background-color:#1d192c;
   z-index: 2;
   text-align: center;
-  margin-top: 200px;
+  margin-top: 300px;
   max-height: 50px;
   flex:1;
 }
@@ -413,6 +427,27 @@ img {vertical-align: middle;}
 .phone{
   color: white;
   text-decoration: underline;
+}
+
+
+
+.event{
+  background-color: #6d0000;
+  color: white;
+  font-size: 30px;
+  margin-top: 70px;
+  font-family:Secondaryfont;
+  margin-left:100px;
+  margin-right:100px;
+  height:400px;
+  border: white solid 4px;
+}
+
+.valent{
+  text-decoration: underline solid;
+  font-size: 60px;
+ margin-left: 35%;
+
 }
 
 
