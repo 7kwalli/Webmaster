@@ -166,9 +166,10 @@ div.sticky {
 .bar {
 	background-color:#171422;
 	color: #fff;
-	padding: 2px;
+	padding: 5px;
  z-index: 2;
 	text-align: center;
+  height: 40px;
 }
 
 .bar a { color: #eee; }

@@ -54,3 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("scroll", checkVisibility);
   checkVisibility(); 
 });
+
+function toggleMenu() {
+  document.querySelector(".nav-links").classList.toggle("show");
+}
