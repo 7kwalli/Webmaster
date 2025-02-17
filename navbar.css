@@ -192,3 +192,28 @@ body {
   
 }
   
+.nav-links {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  background-color: #171422;
+  top: 50px;
+  right: 0;
+  width: 200px;
+  text-align: center;
+}
+
+.nav-links.show {
+  display: flex;
+}
+
+.hamburger-menu {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}

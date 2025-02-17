@@ -35,6 +35,10 @@ window.addEventListener("scroll", () => {
       stickyBar.classList.remove("stuck");
   }
 });
+function toggleMenu() {
+    const navLinks = document.querySelector(".nav-links");
+    navLinks.classList.toggle("show");
+}
 
 
 
@@ -55,6 +59,3 @@ document.addEventListener("DOMContentLoaded", function () {
   checkVisibility(); 
 });
 
-function toggleMenu() {
-  document.querySelector(".nav-links").classList.toggle("show");
-}
