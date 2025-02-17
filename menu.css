@@ -7,11 +7,10 @@
   background-color: #adb3bd;
   padding: 15px;
   border-radius: 10px; 
-  max-width: 650px; 
+  max-width: 660px; 
+  max-height: 290px;
   margin: 20px auto; 
   padding-bottom: 7px;
-  width: 700px;  
-  height: 260px; 
   box-sizing: border-box;
 }
 
@@ -23,11 +22,10 @@
   background-color: #adb3bd;
   padding: 15px;
   border-radius: 10px; 
-  max-width: 650px; 
+  max-width: 660px; 
+  max-height: 290px;
   margin: 20px auto;
   padding-bottom: 27px;
-  width: 700px;  
-  height: 260px; 
   box-sizing: border-box;
 }
 
@@ -39,11 +37,10 @@
   background-color: #adb3bd;
   padding: 15px;
   border-radius: 10px; 
-  max-width: 650px; 
+  max-width: 660px; 
+  max-height: 290px; 
   margin: 20px auto;
   padding-bottom: 27px;
-  width: 700px;  
-  height: 260px; 
   box-sizing: border-box; 
 }
 
@@ -56,10 +53,9 @@
   background-color: #adb3bd;
   padding: 10px;
   border-radius: 10px; 
-  max-width: 650px; 
-  margin: 20px; 
-  width: 700px;  
-  height: 260px; 
+  max-width: 660px; 
+  margin: 20px;   
+  max-height: 290px; 
   box-sizing: border-box; 
 }
 
@@ -67,6 +63,7 @@
 .text {
   flex: 1; 
   margin-right: -10px; 
+
 }
 
 .text h1 {
