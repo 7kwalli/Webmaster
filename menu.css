@@ -29,6 +29,9 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 .boxdown {
   display: flex; 
   align-items: center; 
@@ -130,6 +133,17 @@ a.blr:hover {
   transition: 0.3s ease-in-out; 
 }
 
+:target::before {
+  content: "";
+  display: block;
+  height: 80px; /* Adjust this based on the size of your fixed menu */
+  margin-top: -80px; /* Same value as height */
+}
+
+
+.leftflex{
+  flex:1;
+}
 
 div.sticky.stuck.blr:hover .pngbar{
   background-color: rgb(251, 255, 1);
@@ -138,16 +152,21 @@ div.sticky.stuck.blr:hover .pngbar{
 .rowflex{
   display: flex;
   flex-direction: row;
+  align-items: flex-start;
 }
 
 .flexright{
   flex:1;
 }
-
-.flexleft{
-  flex:1;
+.flexleft {
+  position: sticky;
+  top: 10px; /* Adjust as needed */
+  z-index: 1000; /* Keeps it above other elements */
+  background-color: #171422; /* Ensures it's visible */
+  padding: 10px;
+  padding-top: 20px;
+  border-radius: 5px;
 }
-
 .surround {
   border: #171422 solid 7px;
   width: 1000px;
@@ -185,11 +204,17 @@ h3{
   transform: translateY(0);
 }
 
+a{
+  color: #171422;
+}
 
 .drop-content {
   display: none;
   margin-left: 20px; 
-  font-size: 18px;
+  font-size: 19px;
+  background-color:#887eac;
+  text-align: center;
+  color: #171422;
 }
 
 .drop-header {
