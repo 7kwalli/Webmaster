@@ -136,8 +136,8 @@ a.blr:hover {
 :target::before {
   content: "";
   display: block;
-  height: 80px; /* Adjust this based on the size of your fixed menu */
-  margin-top: -80px; /* Same value as height */
+  height: 80px; 
+  margin-top: -80px; 
 }
 
 
@@ -160,9 +160,9 @@ div.sticky.stuck.blr:hover .pngbar{
 }
 .flexleft {
   position: sticky;
-  top: 10px; /* Adjust as needed */
-  z-index: 1000; /* Keeps it above other elements */
-  background-color: #171422; /* Ensures it's visible */
+  top: 10px; 
+  z-index: 1000;
+  background-color: #171422; 
   padding: 10px;
   padding-top: 20px;
   border-radius: 5px;
