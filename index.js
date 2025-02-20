@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
       
       setTimeout(() => {
           modal.style.display = "none";
-      }, 2000);
+      }, 3000);
   };
 });
 
