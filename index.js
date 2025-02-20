@@ -23,6 +23,41 @@ function showslidez(n) {
   dots[slideIndex-1].className += " active";
 }
 
+document.addEventListener("DOMContentLoaded", function () {
+  var modal = document.getElementById("reservationModal");
+  var btn = document.getElementById("openModal");
+  var span = document.getElementsByClassName("close")[0];
+  var form = modal.querySelector("form");
+
+  btn.onclick = function () {
+      modal.style.display = "block";
+  };
+
+  span.onclick = function () {
+      modal.style.display = "none";
+  };
+
+  window.onclick = function (event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  };
+
+  form.onsubmit = function (event) {
+      event.preventDefault(); 
+      
+      modal.innerHTML = `<div class="modal-content">
+          <h2>Thank You!</h2>
+          <p>Your reservation has been received,<br> we look forward to seeing you!</p>
+      </div>`;
+
+      
+      setTimeout(() => {
+          modal.style.display = "none";
+      }, 2000);
+  };
+});
+
 
 window.addEventListener("scroll", () => {
   const stickyBar = document.querySelector(".sticky");
