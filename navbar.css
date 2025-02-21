@@ -52,6 +52,7 @@ a.press-me:hover { color: #ffdb50; }
 	font-size: 0.9em;
 	line-height: 1;
 	padding: 4px 7px;
+  margin-right: 60%;
 }
 
 @media all and (min-width: 900px) {
@@ -168,7 +169,6 @@ div.sticky {
 	color: #fff;
 	padding: 5px;
  z-index: 2;
-	text-align: center;
   height: 40px;
 }
 
@@ -180,7 +180,7 @@ div.sticky {
 	
 }
 
-.marg a { margin-left: 7px; }
+
 
 body {
   background-image: url(background.png);

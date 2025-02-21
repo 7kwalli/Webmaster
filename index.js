@@ -59,6 +59,44 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+// document.addEventListener("DOMContentLoaded", function () {
+//   var modal = document.getElementById("signModal");
+//   var btn = document.getElementById("openitModal");
+//   var span = document.getElementsByClassName("close")[0];
+//   var form = modal.querySelector("form");
+
+//   btn.onclick = function () {
+//       modal.style.display = "block";
+//   };
+
+
+//   span.onclick = function () {
+//       modal.style.display = "none";
+//   };
+
+//   window.onclick = function (event) {
+//       if (event.target == modal) {
+//           modal.style.display = "none";
+//       }
+//   };
+
+//   form.onsubmit = function (event) {
+//       event.preventDefault(); 
+      
+//       modal.innerHTML = `<div class="modal-content">
+//           <h2>Thank You!</h2>
+//           <p>You will be notified for any special events or time changes!</p>
+//       </div>`;
+
+      
+//       setTimeout(() => {
+//           modal.style.display = "none";
+//       }, 3000);
+//   };
+// });
+
+
+
 window.addEventListener("scroll", () => {
   const stickyBar = document.querySelector(".sticky");
 
