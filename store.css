@@ -9,7 +9,15 @@
     max-height: 335px;
     flex:1;
 }
-  
+
+.lern{
+    background-color: #171422;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 41%;
+}
+
 .footerhead{
     background-color:#1d192c;
     z-index: 2;
@@ -47,3 +55,37 @@
     text-align: center;
 }
 
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(31, 2, 29, 0.5);
+  }
+  
+  .modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .close {
+    color: red;
+    float: right;
+    font-size: 28px;
+    cursor: pointer;
+  }
+  
+  .close:hover {
+    color: darkred;
+  }
+  
+  

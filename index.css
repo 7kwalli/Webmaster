@@ -41,7 +41,7 @@
 .title {
   display: block;
   margin: auto;
-  max-width: 80%; /* Adjust for smaller screens */
+  max-width: 80%; 
 }
 
 .logo {

@@ -17,3 +17,90 @@ body {
     from {opacity: .4} 
     to {opacity: 1}
   }
+
+
+.infotext{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #171422;
+  color: white;
+  border: white solid 3px;
+  flex: 1;
+  padding: 5%;
+}
+
+a.goback{
+  text-decoration: underline;
+  color: #171422; 
+  font-size: 40px; 
+  font-weight: bold;
+  padding: 3px; 
+  
+}
+
+a.goback:hover {
+  background-color: rgb(255, 234, 45); 
+  border-radius: 8px;
+  color: #242036;
+  text-decoration: underline; 
+  z-index: 5;
+}
+
+
+.left {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 20%;
+}
+
+
+.right {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 20%;
+}
+
+
+.title {
+  display: block;
+  margin: auto;
+  max-width: 80%; 
+}
+
+
+.boss{
+  flex:2;
+  border-radius: 40px;
+  margin-top: 40px;
+  max-width: 400px;
+  margin-left: 10%;
+}
+
+
+.purpboxbehind{
+  background-color: #242036;
+  width: 125%;
+  height:428px;
+  max-width: 600px;
+  border-radius: 10px;
+  border: 2px dashed white;
+}
+
+.purpbox{
+  flex:1;
+  text-align:center;
+  color:#eee;
+  font-size: 25px;
+  line-height: 32px;
+  padding: 20px;
+  font-family: Secondaryfont;
+
+}
